@@ -17,6 +17,26 @@
     "deleted": false,
     "policies": []
   },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "publishedLayoutmongoEscapedWidgets": {
+    "Mongo_crud": [
+      "data_table"
+    ],
+    "Mongo": [
+      "Table1"
+    ],
+    "MongoRaw": [
+      "Table1"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Mongo_crud": [
+      "data_table"
+    ],
+    "Mongo": [
+      "Table1"
+    ],
+    "MongoRaw": [
+      "Table1"
+    ]
+  }
 }
