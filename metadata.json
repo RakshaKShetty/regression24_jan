@@ -18,22 +18,22 @@
     "policies": []
   },
   "publishedLayoutmongoEscapedWidgets": {
-    "Mongo_crud": [
-      "data_table"
-    ],
     "Mongo": [
       "Table1"
+    ],
+    "Mongo_crud": [
+      "data_table"
     ],
     "MongoRaw": [
       "Table1"
     ]
   },
   "unpublishedLayoutmongoEscapedWidgets": {
-    "Mongo_crud": [
-      "data_table"
-    ],
     "Mongo": [
       "Table1"
+    ],
+    "Mongo_crud": [
+      "data_table"
     ],
     "MongoRaw": [
       "Table1"
