@@ -7,6 +7,12 @@
   "color": "#FBF4ED",
   "icon": "cricket",
   "slug": "regression-jan24",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "publishedModeThemeId": "61c57741db67aa7828fd7472",
   "editModeThemeId": "61c57741db67aa7828fd7472",
