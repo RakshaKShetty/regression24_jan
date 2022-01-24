@@ -14,6 +14,7 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"delete\": \"test\",\n  \"deletes\": [\n    {\n      \"q\": {\n        \"_id\": \"id_of_document_to_delete\"\n      },\n      \"limit\": 1\n    }\n  ]\n}\n",
@@ -50,6 +51,7 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"delete\": \"test\",\n  \"deletes\": [\n    {\n      \"q\": {\n        \"_id\": \"id_of_document_to_delete\"\n      },\n      \"limit\": 1\n    }\n  ]\n}\n",

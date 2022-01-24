@@ -14,6 +14,7 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"find\": \"test\",\n  \"filter\": {\n    \"_id\": ObjectId(\"id_to_query_with\")\n  }\n}\n",
@@ -49,6 +50,7 @@
     },
     "pageId": "Mongo",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"find\": \"test\",\n  \"filter\": {\n    \"_id\": ObjectId(\"id_to_query_with\")\n  }\n}\n",
