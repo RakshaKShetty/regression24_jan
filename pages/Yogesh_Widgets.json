@@ -134,7 +134,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "decimals": 1,
+              "decimals": 2,
               "iconAlign": "left",
               "defaultText": "",
               "currencyCode": "USD"
@@ -294,7 +294,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "decimals": 1,
+              "decimals": 2,
               "iconAlign": "left",
               "defaultText": "",
               "currencyCode": "USD"
