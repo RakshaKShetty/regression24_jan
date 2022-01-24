@@ -2,8 +2,8 @@
   "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 1,
-  "publishedDefaultPageName": "creg_24",
-  "unpublishedDefaultPageName": "creg_24",
+  "publishedDefaultPageName": "Assets-test.appsmith.com",
+  "unpublishedDefaultPageName": "Assets-test.appsmith.com",
   "actionCollectionList": [],
   "editModeTheme": {
     "name": "Classic",
