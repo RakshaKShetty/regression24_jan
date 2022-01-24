@@ -14,6 +14,7 @@
     },
     "pageId": "Postgre",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE public.\"accounts\" SET\n    \"username\" = '',\n    \"password\" = '',\n    \"email\" = '',\n    \"created_on\" = TIMESTAMP '2019-07-01 10:00:00',\n    \"phone\" = ''\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!"
@@ -41,6 +42,7 @@
     },
     "pageId": "Postgre",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE public.\"accounts\" SET\n    \"username\" = '',\n    \"password\" = '',\n    \"email\" = '',\n    \"created_on\" = TIMESTAMP '2019-07-01 10:00:00',\n    \"phone\" = ''\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!"
