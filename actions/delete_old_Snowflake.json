@@ -14,6 +14,7 @@
     },
     "pageId": "Snowflake",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "DELETE FROM PUBLIC.BBB\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may delete everything in the table!"
@@ -41,6 +42,7 @@
     },
     "pageId": "Snowflake",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "DELETE FROM PUBLIC.BBB\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may delete everything in the table!"

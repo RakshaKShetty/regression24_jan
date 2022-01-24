@@ -14,6 +14,7 @@
     },
     "pageId": "MYSQL",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE CC SET\n    Name = '',\n    rating = 1,\n    ceoname = '',\n    age = 1\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!"
@@ -41,6 +42,7 @@
     },
     "pageId": "MYSQL",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE CC SET\n    Name = '',\n    rating = 1,\n    ceoname = '',\n    age = 1\n  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!"

@@ -14,6 +14,7 @@
     },
     "pageId": "MYSQL",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO CC (Name, rating, ceoname, age)\n  VALUES ('', 1, '', 1);"
@@ -41,6 +42,7 @@
     },
     "pageId": "MYSQL",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO CC (Name, rating, ceoname, age)\n  VALUES ('', 1, '', 1);"
