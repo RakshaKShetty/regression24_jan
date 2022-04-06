@@ -1,205 +1,371 @@
 {
   "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 1,
+  "serverSchemaVersion": 3,
   "publishedDefaultPageName": "Assets-test.appsmith.com",
   "unpublishedDefaultPageName": "Assets-test.appsmith.com",
-  "actionCollectionList": [
-    {
-      "unpublishedCollection": {
-        "name": "JSObject1",
-        "pageId": "Mongo_crud",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//do async stuff here or use JS promises\n\t}\n}",
-        "variables": [
-          {
-            "name": "myVar1",
-            "value": []
-          },
-          {
-            "name": "myVar2",
-            "value": {}
-          }
-        ]
-      },
-      "publishedCollection": {
-        "name": "JSObject1",
-        "pageId": "Mongo_crud",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//do async stuff here or use JS promises\n\t}\n}",
-        "variables": [
-          {
-            "name": "myVar1",
-            "value": []
-          },
-          {
-            "name": "myVar2",
-            "value": {}
-          }
-        ]
-      },
-      "id": "Mongo_crud_JSObject1",
-      "deleted": false,
-      "userPermissions": [
-        "read:actions",
-        "execute:actions",
-        "manage:actions"
-      ],
-      "gitSyncId": "61ee3364a618840f00ba0ce0_61f7e918674ca2114cf52846"
+  "invisibleActionFields": {
+    "Assets-test.appsmith.com_CreateFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     },
-    {
-      "unpublishedCollection": {
-        "name": "JSObject2",
-        "pageId": "Mongo_crud",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//do async stuff here or use JS promises\n\t}\n}",
-        "variables": [
-          {
-            "name": "myVar1",
-            "value": []
-          },
-          {
-            "name": "myVar2",
-            "value": {}
-          }
-        ]
-      },
-      "publishedCollection": {
-        "name": "JSObject2",
-        "pageId": "Mongo_crud",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//do async stuff here or use JS promises\n\t}\n}",
-        "variables": [
-          {
-            "name": "myVar1",
-            "value": []
-          },
-          {
-            "name": "myVar2",
-            "value": {}
-          }
-        ]
-      },
-      "id": "Mongo_crud_JSObject2",
-      "deleted": false,
-      "userPermissions": [
-        "read:actions",
-        "execute:actions",
-        "manage:actions"
-      ],
-      "gitSyncId": "61ee3364a618840f00ba0ce0_61f7e92e674ca2114cf5284c"
+    "Assets-test.appsmith.com_DeleteFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     },
-    {
-      "unpublishedCollection": {
-        "name": "JSObject3",
-        "pageId": "Mongo_crud",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//do async stuff here or use JS promises\n\t}\n}",
-        "variables": [
-          {
-            "name": "myVar1",
-            "value": []
-          },
-          {
-            "name": "myVar2",
-            "value": {}
-          }
-        ]
-      },
-      "publishedCollection": {
-        "name": "JSObject3",
-        "pageId": "Mongo_crud",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//do async stuff here or use JS promises\n\t}\n}",
-        "variables": [
-          {
-            "name": "myVar1",
-            "value": []
-          },
-          {
-            "name": "myVar2",
-            "value": {}
-          }
-        ]
-      },
-      "id": "Mongo_crud_JSObject3",
-      "deleted": false,
-      "userPermissions": [
-        "read:actions",
-        "execute:actions",
-        "manage:actions"
-      ],
-      "gitSyncId": "61ee3364a618840f00ba0ce0_61f7e943674ca2114cf52852"
+    "Assets-test.appsmith.com_ListFiles": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Assets-test.appsmith.com_ReadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Assets-test.appsmith.com_UpdateFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "CRud_Mysql_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "CRud_Mysql_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "CRud_Mysql_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "CRud_Mysql_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_Create_table": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_delete_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_delete_data_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_get_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_insert_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_insert_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_update_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MYSQL_update_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MongoRaw_Delete_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MongoRaw_Get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MongoRaw_Insert_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MongoRaw_update_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_Agg": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_Insert_doc": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_count": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Mongo_crud_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_JSObject2.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_JSObject2.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_JSObject3.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_JSObject3.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_crud_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_delete_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_delete_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_distinct": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_findid_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_findold": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_insert_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_update__data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Mongo_update_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page2_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_Create_Table": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_Delete_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_Get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_Insert_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_Update_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_crud_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_crud_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_crud_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Postgre_crud_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_delete_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_get_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_insert_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Postgre_update_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "SMTP_Email": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "SMTP_Query1": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Snowflake_Create_table": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_Insert_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_crud_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_crud_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_crud_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Snowflake_crud_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_delete_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_delete_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_get": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_get_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_insert_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_update_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Snowflake_update_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "creg_24_Api2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "creg_24_Api3": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "sample datasource_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "sample datasource_get": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "sample datasource_movies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "sample datasource_nopage_load": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "sample datasource_query_no_page_laod": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     }
-  ],
+  },
   "editModeTheme": {
     "name": "Classic",
+    "displayName": "Classic",
     "isSystemTheme": true,
-    "deleted": false,
-    "policies": []
+    "deleted": false
   },
   "publishedTheme": {
     "name": "Classic",
+    "displayName": "Classic",
     "isSystemTheme": true,
-    "deleted": false,
-    "policies": []
+    "deleted": false
   },
   "publishedLayoutmongoEscapedWidgets": {
     "Mongo": [
       "Table1"
     ],
-    "Mongo_crud": [
-      "data_table"
-    ],
     "MongoRaw": [
       "Table1"
+    ],
+    "Mongo_crud": [
+      "data_table"
     ]
   },
   "unpublishedLayoutmongoEscapedWidgets": {
     "Mongo": [
       "Table1"
     ],
-    "Mongo_crud": [
-      "data_table"
-    ],
     "MongoRaw": [
       "Table1"
+    ],
+    "Mongo_crud": [
+      "data_table"
     ]
   }
 }
