@@ -1,7 +1,42 @@
 {
-  "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 3,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "creg_24",
+    "MYSQL",
+    "Mongo",
+    "Postgre_crud",
+    "Shwetha_Widget",
+    "Assets-test.appsmith.com",
+    "CRud_Mysql",
+    "SMTP",
+    "Mongo_crud",
+    "sample datasource",
+    "Page1",
+    "MongoRaw",
+    "Page2",
+    "Snowflake",
+    "Snowflake_crud",
+    "Postgre"
+  ],
+  "publishedPageOrder": [
+    "creg_24",
+    "MYSQL",
+    "Mongo",
+    "Postgre_crud",
+    "Shwetha_Widget",
+    "Assets-test.appsmith.com",
+    "CRud_Mysql",
+    "SMTP",
+    "Mongo_crud",
+    "sample datasource",
+    "Page1",
+    "MongoRaw",
+    "Page2",
+    "Snowflake",
+    "Snowflake_crud",
+    "Postgre"
+  ],
   "publishedDefaultPageName": "Assets-test.appsmith.com",
   "unpublishedDefaultPageName": "Assets-test.appsmith.com",
   "invisibleActionFields": {
@@ -114,22 +149,6 @@
       "publishedUserSetOnLoad": true
     },
     "Mongo_crud_InsertQuery": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Mongo_crud_JSObject1.myFun1": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Mongo_crud_JSObject1.myFun2": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Mongo_crud_JSObject2.myFun1": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Mongo_crud_JSObject2.myFun2": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -334,17 +353,20 @@
       "publishedUserSetOnLoad": false
     }
   },
-  "editModeTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false
-  },
   "publishedTheme": {
     "name": "Classic",
     "displayName": "Classic",
     "isSystemTheme": true,
-    "deleted": false
+    "deleted": false,
+    "policies": [
+      {
+        "permission": "read:themes",
+        "users": [
+          "anonymousUser"
+        ],
+        "groups": []
+      }
+    ]
   },
   "publishedLayoutmongoEscapedWidgets": {
     "Mongo": [
@@ -367,5 +389,6 @@
     "Mongo_crud": [
       "data_table"
     ]
-  }
+  },
+  "fileFormatVersion": 2
 }
